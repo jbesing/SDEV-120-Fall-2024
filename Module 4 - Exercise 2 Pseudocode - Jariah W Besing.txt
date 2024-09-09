@@ -1,0 +1,18 @@
+Start
+	define num guessWord
+	define num correctWord
+	
+	input guessWord = "Guess word in English language dictionary."
+	
+	if guessWord is not equal to correctWord then
+		while guessWord is not equal to correctWord
+			if guessWord comes before correctWord then
+				input guessWord = "Guess a word that comes after guessWord."
+			else
+				input guessWord = "Guess a word that comes before guessWord."
+			endif
+		endwhile
+		
+	endif	
+	
+End

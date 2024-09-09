@@ -1,0 +1,23 @@
+Start
+	define num guessNumber
+	define num correctNumber
+	
+	input guessNumber = "Guess number between 1 and 100."
+	
+	if guessNumber is not equal to correctNumber then
+		while guessNumber is not equal to correctNumber
+			if guessNumberis greather than correctNumber then
+				input guessNumber = "Guess a number between guessNumber and 100."
+			else
+				input guessNumber = "Guess a number between 1 and guessNumber."
+			endif
+		endwhile
+		
+	endif	
+	
+End
+	
+	
+	
+	
+	
